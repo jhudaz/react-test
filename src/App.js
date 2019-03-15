@@ -5,7 +5,7 @@ import Home from './containers/home';
 import AppForm from './containers/form';
 
 
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {
