@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
+import { Link } from 'react-router-dom';
 
 import { getData } from '../actions';
 
@@ -131,6 +132,9 @@ class AppForm extends Component {
             this.props.reducerApp.data.map((data, i) => this.renderForm(data, i))
           }
         </form>
+        <Link to="/">
+          <button>Volver</button>
+        </Link>
       </main>
         );
       }
