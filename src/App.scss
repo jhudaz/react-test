@@ -22,6 +22,9 @@ body {
     align-items: center;
     padding: 30px 0px;
     form {
+      h1, h3 {
+        color: #ec0000;
+      }
       div {
         display: flex;
         justify-content: space-between;
