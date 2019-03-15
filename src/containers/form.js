@@ -26,6 +26,7 @@ class AppForm extends Component {
         return (
           <div>
             <label>{data.text}</label>
+            <br/>
             <input type="text" />
           </div>
         );
@@ -33,6 +34,7 @@ class AppForm extends Component {
         return (
           <div>
             <label>{data.text}</label>
+            <br/>
             <select>
               <option value="true">Si</option>
               <option value="false">No</option>
@@ -50,6 +52,7 @@ class AppForm extends Component {
       return (
         <div>
           <label>{data.text}</label>
+          <br/>
           <input
             type="number"
             disabled={true}
@@ -61,6 +64,7 @@ class AppForm extends Component {
       return (
         <div>
           <label>{data.text}</label>
+          <br/>
           <input
             type="number"
             min="1"
